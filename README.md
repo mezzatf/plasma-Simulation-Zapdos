@@ -14,10 +14,10 @@ The main problem I face is this non-convergence of the solution when I change an
 
 What has been tried and failed: 
 -
-1- keep the mesh (gas+liquid and the element size) and the BCs and change the applied voltage. 
-2- keep the mesh (gas+liquid) but decreases the element size to 10 nm and the domain to 1 um. 
+ 1- keep the mesh (gas+liquid and the element size) and the BCs and change the applied voltage. 
+ 2- keep the mesh (gas+liquid) but decreases the element size to 10 nm and the domain to 1 um. 
 
 What is under processing: 
 -
-3- remove the liquid part and change the BCs to natural one means there is no flux at boundaries. 
+ 3- remove the liquid part and change the BCs to natural one means there is no flux at boundaries. 
 
