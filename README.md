@@ -3,7 +3,7 @@ We are using Zapdos code, based on MOOSE, for simulating the plasma formation in
 
 Discussion for PPGD team:
 -------------------------
-Here you can find the progress in Zapdos simulation, what has been understood and what is still missing in numerical part (ex. MOOSE syntax, etc.). Two directories are presented in this repository, one indicated the reproduces [default]https://github.com/mostamoh/plasma-rock/README.md example given by Zapdo's author and the second contains the updated version to simulate our case. 
+Here you can find the progress in Zapdos simulation, what has been understood and what is still missing in numerical part (ex. MOOSE syntax, etc.). Two directories are presented in this repository, one indicated the reproduces [default](https://github.com/mostamoh/plasma-rock/README.md) example given by Zapdo's author and the second contains the updated version to simulate our case. 
 
 The updates include the modification of the following: 
  - the mesh to remove the liquid layer and decrease the domain from 1 mm to 1 um. 
