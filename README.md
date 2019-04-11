@@ -16,8 +16,13 @@ What has been tried and failed:
 -
  - keep the mesh (gas+liquid and the element size) and the BCs and change the applied voltage. 
  - keep the mesh (gas+liquid) but decreases the element size to 10 nm and the domain to 1 um. 
+ - what do you think to continue to solve the non-convergence problem at different V and d? 
+ - Do you have any recommendations from the MOOSE point of view to overcome that problem?
 
 What is under processing: 
 -
- - remove the liquid part and change the BCs to natural one means there is no flux at boundaries. 
+ - remove the liquid part with the same default input parameters and geometry. 
+ - after passing the 1st, going to change the BCs to the natural one that means there is no flux at boundaries. 
+ - please, check the geometry.ge & and the geometry.msh in the updated folder to check. 
+ - I am working on that and I will keep you updated if new results have been achieved. 
 
