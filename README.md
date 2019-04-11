@@ -1,8 +1,8 @@
 # Plasma rock simulation:
-We are using Zapdos code, based on MOOSE, for simulating the plasma formation in rocks under a few hundred kilovolts. This is essential to understand the rock fracture mechanism under high voltage micropulse that has been achieved at different facilities. 
+We are using [Zapdos code](https://github.com/shannon-lab/zapdos), based on [MOOSE] (https://mooseframework.org/), for simulating the plasma formation in rocks under a few hundred kilovolts. This is essential to understand the rock fracture mechanism under high voltage micropulse that has been achieved at different facilities. 
 
 Discussion for PPGD team:
--------------------------
+-
 Here you can find the progress in Zapdos simulation, what has been understood and what is still missing in numerical part (ex. MOOSE syntax, etc.). Two directories are presented in this repository, the [default](https://github.com/mostamoh/plasma-rock/default) one that indicates the reproduced example given by Zapdo's author and the [updates](https://github.com/mostamoh/plasma-rock/updates) that contains the updated version to simulate our case. 
 
 The updates include the modification of the following: 
