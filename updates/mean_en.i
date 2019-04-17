@@ -13,7 +13,7 @@ dom1Scale=1e-7
 
 [Mesh]
   type = FileMesh
-  file = 'liquidNew.msh'
+  file = 'geometry.msh'
 []
 
 [Executioner]
